@@ -53,7 +53,7 @@ def main():
                     if dispositivo not in dispositivos_disponibles:
                         if bus not in disconnected:
                             print(
-                                f"[{bus}] El dispositivo {dispositivo} ha sido desconectado."
+                                f"[{bus}] El dispositivo {dispositivo} está desconectado."
                             )
                             disconnected.add(bus)
                     else:

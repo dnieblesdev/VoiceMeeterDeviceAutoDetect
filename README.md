@@ -20,7 +20,7 @@ py -m venv .env
 .\.env\Scripts\activate
 ```
 
-# Instalar dependencia VoiceMeeter API
+### Instalar dependencia VoiceMeeter API
 
 ```powershell
 pip install voicemeeter-api o pip install -r requirements.txt
